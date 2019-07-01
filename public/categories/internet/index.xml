@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on Il était une fois internet</title>
+    <link>https://iletaitunefoisinternet.fr/categories/internet/</link>
+    <description>Recent content in Internet on Il était une fois internet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 14 Feb 2017 18:25:22 +0530</lastBuildDate>
+    
+	<atom:link href="https://iletaitunefoisinternet.fr/categories/internet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Création, partage et droit d&#39;auteur</title>
+      <link>https://iletaitunefoisinternet.fr/post/5-creation-maurel/</link>
+      <pubDate>Tue, 14 Feb 2017 18:25:22 +0530</pubDate>
+      
+      <guid>https://iletaitunefoisinternet.fr/post/5-creation-maurel/</guid>
+      <description>&lt;p&gt;Lionel Maurel&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Création, partage et droit d&#39;auteur</title>
+      <link>https://iletaitunefoisinternet.fr/post/6-creation-aigrain/</link>
+      <pubDate>Tue, 14 Feb 2017 18:25:22 +0530</pubDate>
+      
+      <guid>https://iletaitunefoisinternet.fr/post/6-creation-aigrain/</guid>
+      <description>&lt;p&gt;Philippe Aigrain&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Internet et ses enjeux</title>
+      <link>https://iletaitunefoisinternet.fr/post/4-monde-bayart/</link>
+      <pubDate>Tue, 14 Feb 2017 18:25:22 +0530</pubDate>
+      
+      <guid>https://iletaitunefoisinternet.fr/post/4-monde-bayart/</guid>
+      <description>&lt;p&gt;Benjamin Bayart&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

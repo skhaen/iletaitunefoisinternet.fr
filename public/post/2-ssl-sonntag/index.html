@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https:\/\/iletaitunefoisinternet.fr"
+        },
+        "articleSection" : "post",
+        "name" : "SSL \/ TLS",
+        "headline" : "SSL \/ TLS",
+        "description" : "\x3cp\x3eBenjamin Sonntag\x3c\/p\x3e\n\n\x3cp\x3e20 septembre 2013 @ La Cantine \/ Paris\x3c\/p\x3e",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2013",
+        "datePublished": "2013-09-09 18:25:22 \x2b0530 \x2b0530",
+        "dateModified" : "2013-09-09 18:25:22 \x2b0530 \x2b0530",
+        "url" : "https:\/\/iletaitunefoisinternet.fr\/post\/2-ssl-sonntag\/",
+        "wordCount" : "358",
+        "image" : "https://iletaitunefoisinternet.fr/img/sonntag_2-1.jpg"",
+        "keywords" : [ "Blog" ]   
+    }
+    </script>
+
+
+ <title>SSL / TLS </title>
+
+
+<meta name="description" content="Describe your website" />
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" id="ct-tracks-google-fonts-css" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C700&amp;subset=latin%2Clatin-ext&amp;ver=4.7.2" type="text/css" media="all">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<link href="https://iletaitunefoisinternet.fr/css/style.css?v=1562008350" rel="stylesheet" id="theme-stylesheet" type='text/css' media='all'>
+
+<link href="https://iletaitunefoisinternet.fr/css/custom.css?v=1562008350" rel="stylesheet" type='text/css' media='all'>
+<link rel="shortcut icon" href="https://iletaitunefoisinternet.fr/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://iletaitunefoisinternet.fr/img/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body class="post-template-default single single-post single-format-standard ct-body singular singular-post not-front standard">
+
+  <div id="overflow-container" class="overflow-container">
+    <a class="skip-content" href="#main">Skip to content</a>
+    <header id="site-header" class="site-header" role="banner">
+      <div class='top-navigation'>
+        <div class='container'>
+
+  <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
+    <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fas fa-plus"></i></button>
+
+    <div class="menu">
+
+      <ul id="menu-secondary-items" class="menu-secondary-items">
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/bgp">bgp</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/dns">dns</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/droit">droit</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/email">email</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/enjeux">enjeux</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/fai">fai</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/infra">infra</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+          <a href="/categories/ssl">ssl</a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+
+  </div>
+
+
+  <ul class="social-media-icons">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li>
+      <a href="mailto:email@example.com" data-animate-hover="pulse" class="email">
+        <i class="fas fa-envelope" title="email"></i>
+        <span class="screen-reader-text">email</span>
+      </a>
+    </li>
+    
+
+    
+
+    
+
+
+    
+    <li>
+      <a href="full%20profile%20url%20in%20github" data-animate-hover="pulse" class="github" target="_blank">
+        <i class="fab fa-github" title="github"></i>
+        <span class="screen-reader-text">github</span>
+      </a>
+    </li>
+    
+
+
+    
+
+    
+    <li>
+      <a href="https://iletaitunefoisinternet.fr/index.xml" data-animate-hover="pulse" class="rss" target="_blank">
+        <i class="fas fa-rss" title="rss"></i>
+        <span class="screen-reader-text">rss</span>
+      </a>
+    </li>
+    
+
+
+  </ul></div>
+
+      </div>
+
+      <div class="container">
+        <div id="title-info" class="title-info">
+  <div id='site-title' class='site-title'>
+    
+    <a href="/"> Il était une fois internet </a>
+    </div>
+  </div>
+  <button id="toggle-navigation" class="toggle-navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
+  <div id="menu-primary" class="menu-container menu-primary" role="navigation">
+    
+    <p class="site-description">Tout ce que vous avez toujours voulu savoir sur Internet</p>
+    
+
+    <div class="menu">
+      <ul id="menu-primary-items" class="menu-primary-items">
+        
+        
+        <li class='menu-item menu-item-type-custom menu-item-object-custom '>
+          <a href="https://iletaitunefoisinternet.fr/">Home</a>
+          
+        </li>
+        
+        <li class='menu-item menu-item-type-post_type menu-item-object-page '>
+          <a href="https://iletaitunefoisinternet.fr/about/">About</a>
+          
+        </li>
+        
+        <li class='menu-item menu-item-type-post_type menu-item-object-page '>
+          <a href="https://iletaitunefoisinternet.fr/faq/">FAQ</a>
+          
+        </li>
+        
+      </ul>
+    </div>
+
+  </div>
+
+      </div>
+    </header>
+
+    <div id="main" class="main" role="main">
+
+      
+  
+  
+    
+  
+  
+  <div id="loop-container" class="loop-container">
+    
+    <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
+
+      <div class='featured-image lazy lazy-bg-image'  data-background="https://iletaitunefoisinternet.fr/img/sonntag_2-1.jpg">
+      </div>
+      
+        <div class="entry-meta">
+          <span class="date">09 September</span>	<span> / </span>
+
+          <span class="author">
+            <a href="https://www.cyphercat.eu" title="Posts by Skhaen" rel="author">Skhaen</a>
+          </span>
+
+
+          
+          <span class="category">
+            <span> / </span>
+
+            <a href="/categories/ssl">SSL</a>
+          </span>
+          
+
+
+        </div>
+        <div class='entry-header'>
+          <h1 class='entry-title'> SSL / TLS</h1>
+        </div>
+        <div class="entry-container">
+          <div class="entry-content">
+            <article>
+              <p>Benjamin Sonntag</p>
+
+<p>20 septembre 2013 @ La Cantine / Paris</p>
+
+<ul>
+<li>Site : <a href="https://benjamin.sonntag.fr/fr">benjamin.sonntag.fr</a>,</li>
+<li>associé gérant et directeur technique d&rsquo;<a href="https://www.octopuce.fr">Octopuce</a>.</li>
+</ul>
+
+<h3 id="laconfrence">La conférence</h3>
+
+<video "controls": true, id="ssltls_sonntag_conference" class="video-js vjs-default-skin"controls preload="auto" width="100%" height="100%" 
+<source src="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/360p/IEUFI_ssl-tls_Sonntag_360.mp4" type='video/mp4' /> 
+<source src="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/360p/IEUFI_ssl-tls_Sonntag_360.webm" type='video/webm' /> 
+</video>
+
+<h3 id="tlchargements">Téléchargements</h3>
+
+<h4 id="lesslides">Les slides</h4>
+
+<p>Les slides peuvent être téléchargées ici : <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/IEUFI_SSL-TLS_Sonntag.pdf">SSL-TLS_Sonntag.pdf</a>.</p>
+
+<p>Le document « <em>Analysis of the HTTPS Certificate Ecosystem</em> » peut être téléchargé ici : <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/docs/Analysis_of_the_HTTPS%C3%A8_certificate_ecosystem.pdf">Analysis of the certificate ecosystem (pdf)</a>.</p>
+
+<h4 id="lesvidos">Les vidéos</h4>
+
+<p>Les vidéos de la conférence sont disponibles en basse et en haute définition, en .mp4 et en .webm :</p>
+
+<p>Basse définition :</p>
+
+<ul>
+<li>conférence : <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/360p/IEUFI_ssl-tls_Sonntag_360.webm">webm</a> (321M) / <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/360p/IEUFI_ssl-tls_Sonntag_360.mp4">mp4</a> (378M)</li>
+</ul>
+
+<p>Haute définition :</p>
+
+<ul>
+<li>conférence : <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/720p/IEUFI_ssl-tls_Sonntag_720.webm">webm</a> (1,2G) / <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/720p/IEUFI_ssl-tls_Sonntag_720.mp4">mp4</a> (894M)</li>
+</ul>
+
+<h3 id="exemplesdeconfigurations">Exemples de configurations</h3>
+
+<h4 id="apache">Apache</h4>
+
+<pre><code class="language-bash">ServerAdmin webmaster@octopuce.fr
+DocumentRoot /var/www
+
+SSLCertificateFile        /etc/ssl/private/octopuce.fr.crt
+SSLCertificateChainFile   /etc/ssl/private/octopuce.fr.chain
+SSLCertificateKeyFile     /etc/ssl/private/octopuce.fr.key
+
+SSLEngine on
+SSLProtocol +TLSv1.2 +TLSv1.1 +TLSv1
+SSLCompression off
+SSLHonorCipherOrder on
+SSLCipherSuite ALL:!aNULL:!eNULL:!LOW:!EXP:!RC4:!3DES:+HIGH:+MEDIUM 
+Header set Strict-Transport-Security &quot;max-age=2678400&quot;
+</code></pre>
+
+<h4 id="nginx">Nginx</h4>
+
+<pre><code class="language-bash">server {
+  listen 443;
+  ssl on;
+  ssl_certificate /etc/ssl/private/octopuce.fr.crt+chain;
+  ssl_certificate_key /etc/ssl/private/octopuce.fr.key;
+  ssl_session_timeout 5m;
+  ssl_prefer_server_ciphers on;
+  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+  ssl_ciphers ALL:!aNULL:!eNULL:!LOW:!EXP:!RC4:!3DES:+HIGH:+MEDIUM;
+
+  ssl_dhparam /etc/ssl/private/dh2048.pem;
+  add_header Strict-Transport-Security max-age=2678400;
+}
+</code></pre>
+
+<p>Et</p>
+
+<pre><code class="language-bash">openssl dhparam -out /etc/ssl/private/dh2048.pem -outform PEM -2 2048
+</code></pre>
+
+<p>Cf. <a href="https://nginx.org/en/docs/http/configuring_https_servers.html">nginx.org</a> pour plus de détails</p>
+
+<h4 id="lighttpd">lighttpd</h4>
+
+<pre><code class="language-bash">$SERVER[&quot;socket&quot;] == &quot;0.0.0.0:443&quot; {
+  ssl.engine  = &quot;enable&quot;
+  ssl.pemfile = &quot;/etc/ssl/private/octopuce.fr.key+crt&quot;
+  ssl.ca-file = &quot;/etc/ssl/private/octopuce.fr.chain&quot;
+
+  ssl.cipher-list = &quot;ALL:!aNULL:!eNULL:!LOW:!EXP:!RC4:!3DES:+HIGH:+MEDIUM&quot;
+  ssl.honor-cipher-order = &quot;enable&quot;
+  setenv.add-response-header  = ( &quot;Strict-Transport-Security&quot; =&amp;gt; &quot;max-age=2678400&quot;)
+}
+</code></pre>
+
+<h4 id="postfix">Postfix</h4>
+
+<pre><code class="language-bash"># TLS parameters
+smtpd_tls_cert_file = /etc/ssl/private/octopuce.fr.crt+chain
+smtpd_tls_dcert_file = $smtpd_tls_cert_file
+smtpd_tls_key_file = /etc/ssl/private/octopuce.fr.key
+smtpd_tls_dkey_file = $smtpd_tls_key_file
+smtpd_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
+smtpd_tls_mandatory_ciphers = high
+smtpd_tls_mandatory_exclude_ciphers = aNULL, MD5
+smtpd_tls_dh1024_param_file = /etc/ssl/private/dh2048.pem
+
+smtpd_use_tls = yes
+smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
+smtpd_tls_protocols = !SSLv2,!SSLv3
+smtpd_tls_received_header = yes
+
+smtp_tls_cert_file = $smtpd_tls_cert_file
+smtp_tls_dcert_file = $smtpd_tls_dcert_file
+smtp_tls_key_file = $smtpd_tls_key_file
+smtp_tls_dkey_file = $smtpd_tls_dkey_file
+smtp_tls_CAfile = $smtpd_tls_CAfile
+smtp_tls_mandatory_ciphers = $smtpd_tls_mandatory_ciphers
+smtp_tls_mandatory_exclude_ciphers = $smtpd_tls_mandatory_exclude_ciphers
+
+smtp_use_tls = yes
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+smtp_tls_protocols = !SSLv2,!SSLv3
+smtp_tls_secure_cert_match = nexthop, dot-nexthop
+</code></pre>
+
+<p>Voir <a href="https://www.postfix.org/TLS_README.html">postfix.org</a> pour plus de détails.</p>
+
+<h4 id="proftpd">Proftpd</h4>
+
+<pre><code class="language-bash">TLSEngine                on
+TLSLog                    /var/log/proftpd/tls.log
+TLSProtocol             TLSv1
+TLSCipherSuite  ALL:!aNULL:!eNULL:!LOW:!EXP:!RC4:!3DES:+HIGH:+MEDIUM
+TLSRSACertificateFile     /etc/ssl/private/octopuce.fr.crt+chain
+TLSRSACertificateKeyFile     /etc/ssl/private/octopuce.fr.key
+TLSRenegotiate           required off
+TLSOptions               NoCertRequest EnableDiags NoSessionReuseRequired
+TLSVerifyClient          off
+TLSRequired                on # facultatif
+</code></pre>
+
+<h4 id="prosody">Prosody</h4>
+
+<pre><code class="language-bash">ssl = {
+    key = &quot;/etc/ssl/private/octopuce.fr.key&quot;;
+    certificate = &quot;/etc/ssl/private/octopuce.fr.crt+chain&quot;;
+}
+
+c2s_require_encryption = true
+s2s_require_encryption = true
+</code></pre>
+
+<ul>
+<li><strong>IMPORTANT</strong> : copier le bloc SSL = { } dans tout VirtualHost.</li>
+</ul>
+
+<p>Vous pouvez voir les sites suivants plus aller plus loin :</p>
+
+<ul>
+<li><a href="https://www.jeveuxhttps.fr/Accueil">Jeveuxhttps.fr</a> pour mettre en place SSL/TLS sur différentes plateformes,</li>
+<li><a href="https://www.libwalk.so/2014/02/14/installer-un-serveur-xmppjabber-avec-prosody.html">comment configurer un serveur jabber</a> avec Prosody sous Debian.</li>
+</ul>
+            </article>
+          </div>
+          
+      <div class='entry-meta-bottom'>
+        
+
+  <div class="entry-categories"><p><span>Categories</span>
+    
+    <a href="/categories/ssl" title="View all posts in SSL">SSL</a>
+  </p>
+</div>
+
+
+
+<div class="entry-tags"><p><span>Tags</span>
+  
+
+</p></div>	</div>
+
+	
+<div class="author-meta">
+
+  <div class="author">
+    	
+    <img alt='Skhaen' src="https://www.gravatar.com/avatar/5ba4704e3e60273d86f373e990ba49dc?s=100&d=identicon" class='avatar avatar-72 photo' height='72' width='72'>
+    
+    <span>
+      Written by:<a href="https://www.cyphercat.eu" title="Posts by Skhaen" rel="author">Skhaen</a> </span>
+    </div>
+    <div class="bio">
+      
+      
+      
+	
+      
+
+    
+
+
+  
+  <a class="twitter" target="_blank"
+  href="full%20profile%20url%20in%20twitter">
+  <i class="fab fa-twitter-square"
+  title="twitter icon"></i>
+</a>
+
+
+
+
+<a class="email" target="_blank"
+href="mailto:skhaen@cyphercat.eu">
+<i class="fas fa-envelope"
+title="email icon"></i>
+</a>
+
+
+
+
+
+
+
+<a class="github" target="_blank"
+href="full%20profile%20url%20in%20github">
+<i class="fab fa-github"
+title="github icon"></i>
+</a>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+<section id="comments" class="comments">
+  
+
+  
+
+
+
+
+</section>
+</div>
+
+ 
+
+
+
+    </div>
+
+    <footer id="site-footer" class="site-footer" role="contentinfo">
+	<h1>
+    
+    <a href=""> Il était une fois internet </a>
+    
+	</h1>
+
+			
+			<p class="site-description">Tout ce que vous avez toujours voulu savoir sur Internet</p>
+			
+
+		<div id="menu-footer" class="menu-container menu-footer" role="navigation">
+		<div class="menu">
+
+      <ul id="menu-footer-items" class="menu-footer-items">
+        
+</ul>
+
+</div>	</div>
+
+<ul class="social-media-icons">
+
+        
+
+        
+
+
+        
+
+        
+
+        
+        <li>
+        <a href="mailto:email@example.com"  class="email">
+            <i class="fas fa-envelope" title="email"></i>
+            <span class="screen-reader-text">email</span>
+        </a>
+        </li>
+        
+
+        
+
+        
+
+
+        
+        <li>
+        <a href="full%20profile%20url%20in%20github"  class="github" target="_blank">
+            <i class="fab fa-github" title="github"></i>
+            <span class="screen-reader-text">github</span>
+        </a>
+        </li>
+        
+
+
+        
+
+        
+        <li>
+        <a href="https://iletaitunefoisinternet.fr/index.xml" data-animate-hover="pulse" class="rss" target="_blank">
+            <i class="fas fa-rss" title="rss"></i>
+            <span class="screen-reader-text">rss</span>
+        </a>
+        </li>
+        
+
+				</ul>	<div class="design-credit">
+		
+		<p>&copy; 2014</p>
+		
+		<p>Nederburg Hugo Theme by <a href="https://appernetic.io">Appernetic</a>.</p>
+		
+		<p>A port of Tracks by Compete Themes.</p>
+		
+	</div>
+</footer>
+
+  </div>
+  <script src="https://iletaitunefoisinternet.fr/js/jquery.min.js"></script>
+<script src="https://iletaitunefoisinternet.fr/js/jquerymigrate.js"></script>
+<script src="https://iletaitunefoisinternet.fr/js/production.min.js?v=1562008350"></script>
+
+</body>
+</html>
