@@ -4,7 +4,7 @@ draft = false
 image = "/img/bortzmeyer.jpg"
 date = "2013-09-09T18:25:22+05:30"
 title = " DNS"
-writer = "Skhaen"
+writer = "ieufi"
 categories = [ "DNS"]
 weight = 1
 +++
@@ -15,54 +15,56 @@ Stéphane Bortzmeyer
 
 <!--more-->
 
-
-
 * Ingénieur R&D
 * site : <a href="https://www.bortzmeyer.org/">bortzmeyer.org</a>
 
+**Note** : Cette conférence est aussi visionnable sur [youtube](https://www.youtube.com/channel/UCAIt2HaVASaV5f8eQSt1HZQ/videos).
 
-<h3 id="laconfrence">La conférence</h3>
+# Conférence
+
 
 <video "controls": true, id="bortzmeyer_conference" class="video-js vjs-default-skin" controls width="100%" height="100%" 
 <source src="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_conference_360p.mp4" type='video/mp4' /> 
 <source src="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_conference_360p.webm" type='video/webm' /> 
 </video>
 
-<h3 id="lapartietechnique">La partie technique</h3>
+# partie technique
 
 <video "controls": true, id="bortzmeyer_technique" class="video-js vjs-default-skin" controls width="100%" height="100%" 
 <source src="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_tech_360p.mp4" type='video/mp4' /> 
 <source src="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_tech_360p.webm" type='video/webm' /> 
 </video>
 
-<h3 id="lesquestions">Les questions</h3>
+# les questions
 
 <video "controls": true, id="bortzmeyer_questions" class="video-js vjs-default-skin" controls width="100%" height="100%" 
 <source src="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_questions_360p.mp4" type='video/mp4' /> 
 <source src="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_questions_360p.webm" type='video/webm' /> 
 </video>
 
-<h3 id="tlchargements">Téléchargements</h3>
+# Téléchargements
 
-<h4 id="lesslides">Les slides</h4>
+## Les slides
 
 Les slides sont <a href="https://www.bortzmeyer.org/static/DNS@Cantine/#/">visionnables en ligne</a> sur le site de Stéphane Bortzmeyer, il existe aussi une <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/dns_bortzmeyer_slides.pdf">version pdf</a>.
 
-<h4 id="lesvidos">Les vidéos</h4>
+## Les vidéos
 
 Les vidéos de la conférence sont disponibles en basse et en haute définition, en .mp4 et en .webm :
 
 
-* Basse définition :
- * conférence : <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/webm/IEUFI_DNS_bortzmeyer_conference_360p.webm">webm</a> (82M) / <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_conference_360p.mp4">mp4</a> (183M)
- * questions : <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/webm/IEUFI_DNS_bortzmeyer_questions_360p.webm">webm</a> (95M) / <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_questions_360p.mp4">mp4</a> (184M)
+### Basse définition
 
-* Haute définition :
- * conférence : <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/720p/webm/IEUFI_DNS_bortzmeyer_conference_720p.webm">webm</a> (243M) / <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/720p/mp4/IEUFI_DNS_bortzmeyer_conference_720p.mp4">mp4</a> (694M)
- * questions : <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/720p/webm/IEUFI_DNS_bortzmeyer_questions_720p.webm">webm</a> (360M) / <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/720p/mp4/IEUFI_DNS_bortzmeyer_questions_720p.mp4">mp4</a> (410M)
+* conférence : <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/webm/IEUFI_DNS_bortzmeyer_conference_360p.webm">webm</a> (82M) / <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_conference_360p.mp4">mp4</a> (183M)
+* questions : <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/webm/IEUFI_DNS_bortzmeyer_questions_360p.webm">webm</a> (95M) / <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/360p/mp4/IEUFI_DNS_bortzmeyer_questions_360p.mp4">mp4</a> (184M)
+
+### Haute définition
+
+* conférence : <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/720p/webm/IEUFI_DNS_bortzmeyer_conference_720p.webm">webm</a> (243M) / <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/720p/mp4/IEUFI_DNS_bortzmeyer_conference_720p.mp4">mp4</a> (694M)
+* questions : <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/720p/webm/IEUFI_DNS_bortzmeyer_questions_720p.webm">webm</a> (360M) / <a href="https://data.iletaitunefoisinternet.fr/dns-bortzmeyer/720p/mp4/IEUFI_DNS_bortzmeyer_questions_720p.mp4">mp4</a> (410M)
 
 
-<h3 id="configurations">Configurations</h3>
+# Configurations
 
 <h4 id="bindserveurfaisantautorit">Bind - serveur faisant autorité</h4>
 

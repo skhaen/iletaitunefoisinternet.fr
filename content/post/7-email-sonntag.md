@@ -4,7 +4,7 @@ draft = false
 image = "/img/sonntag1.jpg"
 date = "2014-02-07T18:25:22+05:30"
 title = "L'email"
-writer = "Skhaen"
+writer = "ieufi"
 categories = [ "Email"]
 weight = 1
 +++
@@ -17,42 +17,44 @@ Benjamin Sonntag
 * Site : <a href="https://benjamin.sonntag.fr/fr">benjamin.sonntag.fr</a>,
 * associé gérant et directeur technique d'<a href="https://www.octopuce.fr">Octopuce</a>.
 
-<h4 id="laconfrence">La conférence</h4>
+**Note** : Cette conférence est aussi visionnable sur [youtube](https://www.youtube.com/channel/UCAIt2HaVASaV5f8eQSt1HZQ/videos).
+
+# Conférence
 
 <video "controls": true, id="email_sonntag_conference" class="video-js vjs-default-skin" controls width="100%" height="100%" 
 <source src="https://data.iletaitunefoisinternet.fr/mail_sonntag/360p/IEUFI_mail_sonntag_conference-360p.mp4" type='video/mp4' /> 
 <source src="https://data.iletaitunefoisinternet.fr/mail_sonntag/360p/IEUFI_mail_sonntag_conference-360p.webm" type='video/webm' /> 
 </video>
 
-<h4 id="lesquestions">Les questions</h4>
+# Questions
 
 <video "controls": true, id="email_sonntag_questions" class="video-js vjs-default-skin" controls width="100%" height="100%" 
 <source src="https://data.iletaitunefoisinternet.fr/mail_sonntag/360p/IEUFI_mail_sonntag_questions-360p.mp4" type='video/mp4' /> 
 <source src="https://data.iletaitunefoisinternet.fr/mail_sonntag/360p/IEUFI_mail_sonntag_questions-360p.webm" type='video/webm' /> 
 </video>
 
-<h3 id="tlchargements">Téléchargements</h3>
+# Téléchargements
 
-<h4 id="lesslides">Les slides</h4>
+## Les slides
 
 Les slides sont disponibles : « <em><a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/IEUFI_sonntag_mail.pdf">L'email, vaste sujet</a></em> » (pdf).
 
-<h4 id="lesvidos">Les vidéos</h4>
+## Les vidéos
 
 Les vidéos de la conférence sont disponibles en basse et en haute définition, en .mp4 et en .webm :
 
-Basse définition :
+### Basse définition
 
 * conférence : <a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/360p/IEUFI_mail_sonntag_conference-360p.webm">webm</a> (214M) / <a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/360p/IEUFI_mail_sonntag_conference-360p.mp4">mp4</a> (557M)
 * questions : <a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/360p/IEUFI_mail_sonntag_questions-360p.webm">webm</a> (45M) / <a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/360p/IEUFI_mail_sonntag_questions-360p.mp4">mp4</a> (151M)
 
-Haute définition : 
+### Haute définition
 
 * conférence : <a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/720p/IEUFI_mail_sonntag_conference-720p.webm">webm</a> (664M) / <a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/720p/IEUFI_mail_sonntag_conference-720p.mp4">mp4</a> (1.3G)
 * questions : <a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/720p/IEUFI_mail_sonntag_questions-720p.webm">webm</a> (155M) / <a href="https://data.iletaitunefoisinternet.fr/mail_sonntag/720p/IEUFI_mail_sonntag_questions-720p.mp4">mp4</a> (362)
 
 
-<h3 id="exemplesdeconfigurations">Exemples de configurations</h3>
+# Exemples de configurations
 
 <h4 id="exempledeconfigurationdnsavecopendkimspfautodiscover">Exemple de configuration DNS avec OpenDKIM, SPF &amp; autodiscover</h4>
 

@@ -8,12 +8,18 @@ Tout le contenu est sous <a href="https://creativecommons.org/licenses/by-sa/3.0
 
 ## Organisation
 
-* **Organisation** : Guillaume « <em><a href="https://www.cyphercat.eu/">Skhaen</a></em> » Lecoquierre, <a href="https://twitter.com/THD_IT">Ivan Diego Meseguer</a>
-* **Matériel &amp; Live** :  <a href="https://www.octopuce.fr">Octopuce</a>,
-* **Captations** : <a href="https://benjamin.sonntag.fr/fr">Benjamin Sonntag</a>, <a href="https://www.bumble-bee.fr/">Bumblebee</a> et <a href="https://twitter.com/mac_call">Mac  Call</a>,
-* **Montage** : Guillaume « <em><a href="https://libwalk.so/">Skhaen</a></em> » Lecoquierre, <a href="https://twitter.com/V1ru535">v1ru5</a>
-
-
+* **Organisation** : 
+ * Guillaume « <em><a href="https://www.cyphercat.eu/">Skhaen</a></em> » Lecoquierre
+ * <a href="https://twitter.com/THD_IT">Ivan Diego Meseguer</a> (Institut Mines-Télécom)
+* **Matériel &amp; Live** : 
+ * <a href="https://www.octopuce.fr">Octopuce</a>,
+* **Captations** : 
+ * <a href="https://benjamin.sonntag.fr/fr">Benjamin Sonntag</a>, 
+ * <a href="https://www.bumble-bee.fr/">Bumblebee</a>
+  * <a href="https://twitter.com/mac_call">Mac  Call</a>,
+* **Montage** :
+ * Guillaume « <em><a href="https://libwalk.so/">Skhaen</a></em> » Lecoquierre
+ * <a href="https://twitter.com/V1ru535">v1ru5</a>
 
 
 ## Qui est déjà intervenu ? Sur quoi ?
@@ -27,13 +33,15 @@ Tout le contenu est sous <a href="https://creativecommons.org/licenses/by-sa/3.0
 * Benjamin Sonntag, sur l'<a href="lemail-par-benjamin-sonntag/index.html">email</a>.
 * Bruno Spiquel (<a href="https://blog.spyou.org">Turblog</a>), sur <a href="comment-devenir-votre-propre-fai/index.html">qu'est ce qu'un Fournisseur d'Accès à Internet</a>.
 
-## Programme
 
-Il n'y a pas de conférences prévu pour le moment.
-
-## Où ?
+## C'était où ?
 
 La plupart des conférences ont eu lieu à [Mines-Télécom](https://www.mines-telecom.fr/) et à [NUMA](https://www.numaparis.com/). L'entrée était libre, sans inscription, tout le monde était bienvenue dans la limite des places disponibles.
+
+## Et la pièce de théatre alors ?
+
+Vous voulez sans doute parler de l'excellent "[Il était une fois l'internet](https://13r3p.com/iletaitunefoislinternet/)". Ce n'est pas nous, mais on les aime beaucoup, et on vous conseille vivement d'y aller <3
+
 
 ## Remerciements
 

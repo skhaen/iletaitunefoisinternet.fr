@@ -28,25 +28,9 @@ paginate = 15 #frontpage pagination
   author = "Skhaen"
   authorLink = "https://www.cyphercat.eu"
   copyright = [
-    "&copy; 2014",
-    "Nederburg Hugo Theme by [Appernetic](https://appernetic.io).",
-    "A port of Tracks by Compete Themes."
+    "&copy; 2013 / 2019 - Creative Commons BY:SA with datalove",
+    "Nederburg - Hugo Theme by [Appernetic](https://appernetic.io).",
   ]
-
-
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "goran@molnsys.com"
 
   # Nav links in the side bar
   [[menu.main]]
@@ -55,26 +39,31 @@ paginate = 15 #frontpage pagination
   weight = 1
 
   [[menu.main]]
-  name = "About"
-  url = "about/"
-  weight = 2
-
-  [[menu.main]]
   name = "FAQ"
   url = "faq/"
-  weight = 3
+  weight = 2
+
+  #[[menu.main]]
+  #name = "About"
+  #url = "about/"
+  #weight = 2
 
 # this will also be in author bio if there is no writer.
   [params.social]
-  email         = "email@example.com"
-  github        = "full profile url in github"
+  email         = "contact@iletaitunefoisinternet.fr"
+  github        = "https://github.com/skhaen/iletaitunefoisinternet.fr"
   rss           = true
 
 # Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
   [params.writers]
     [params.writers."Skhaen"]
-    link = "https://www.cyphercat.eu"
-    email = "skhaen@cyphercat.eu"
-    twitter       = "full profile url in twitter"
-    github        = "full profile url in github"
+    link    = "https://www.cyphercat.eu"
+    email   = "skhaen@cyphercat.eu"
+    twitter = "https://framapiaf.org/@skhaen"
+    github  = "https://github.com/skhaen/iletaitunefoisinternet.fr"
+
+    [params.writers."ieufi"]
+    link    = "https://www.iletaitunefoisinternet.fr"
+    email   = "contact@iletaitunefoisinternet.fr"
+    github  = "https://github.com/skhaen/iletaitunefoisinternet.fr"
 

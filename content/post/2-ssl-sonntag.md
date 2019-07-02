@@ -4,7 +4,7 @@ draft = false
 image = "/img/sonntag_2-1.jpg"
 date = "2013-09-09T18:25:22+05:30"
 title = "SSL / TLS"
-writer = "Skhaen"
+writer = "ieufi"
 categories = [ "SSL"]
 weight = 1
 +++
@@ -19,36 +19,36 @@ Benjamin Sonntag
 * associé gérant et directeur technique d'<a href="https://www.octopuce.fr">Octopuce</a>.
 
 
-<h3 id="laconfrence">La conférence</h3>
+# Conférence
 
 <video "controls": true, id="ssltls_sonntag_conference" class="video-js vjs-default-skin"controls preload="auto" width="100%" height="100%" 
 <source src="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/360p/IEUFI_ssl-tls_Sonntag_360.mp4" type='video/mp4' /> 
 <source src="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/360p/IEUFI_ssl-tls_Sonntag_360.webm" type='video/webm' /> 
 </video>
 
-<h3 id="tlchargements">Téléchargements</h3>
+# Téléchargements
 
-<h4 id="lesslides">Les slides</h4>
+## Les slides
 
 Les slides peuvent être téléchargées ici : <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/IEUFI_SSL-TLS_Sonntag.pdf">SSL-TLS_Sonntag.pdf</a>.
 
 Le document « <em>Analysis of the HTTPS Certificate Ecosystem</em> » peut être téléchargé ici : <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/docs/Analysis_of_the_HTTPS%C3%A8_certificate_ecosystem.pdf">Analysis of the certificate ecosystem (pdf)</a>.
 
-<h4 id="lesvidos">Les vidéos</h4>
+## Les vidéos
 
 Les vidéos de la conférence sont disponibles en basse et en haute définition, en .mp4 et en .webm :
 
-Basse définition :
+### Basse définition
 
 * conférence : <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/360p/IEUFI_ssl-tls_Sonntag_360.webm">webm</a> (321M) / <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/360p/IEUFI_ssl-tls_Sonntag_360.mp4">mp4</a> (378M)
 
 
-Haute définition :
+### Haute définition
 
 * conférence : <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/720p/IEUFI_ssl-tls_Sonntag_720.webm">webm</a> (1,2G) / <a href="https://data.iletaitunefoisinternet.fr/ssl-tls-sonntag/720p/IEUFI_ssl-tls_Sonntag_720.mp4">mp4</a> (894M)
 
 
-<h3 id="exemplesdeconfigurations">Exemples de configurations</h3>
+# Exemples de configurations</h3>
 
 <h4 id="apache">Apache</h4>
 
