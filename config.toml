@@ -1,6 +1,6 @@
 baseurl = "https://iletaitunefoisinternet.fr"
 title = "Il était une fois internet"
-theme = "nederburg"
+theme = ["nederburg","matomo"]
 languageCode = "fr-fr"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -8,6 +8,10 @@ disqusShortname = ""
 googleAnalytics = ""
 preserveTaxonomyNames = true
 paginate = 15 #frontpage pagination
+
+[params.matomo]
+url = "https://mtm.cyphercat.eu"
+id = 2
 
 [privacy]
   # Google Analytics privacy settings - https://gohugo.io/about/hugo-and-gdpr/index.html#googleanalytics
