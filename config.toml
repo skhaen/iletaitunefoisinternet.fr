@@ -1,4 +1,4 @@
-baseurl = "https://iletaitunefoisinternet.fr"
+baseurl = "https://www.iletaitunefoisinternet.fr"
 title = "Il était une fois internet"
 theme = ["nederburg","matomo"]
 languageCode = "fr-fr"

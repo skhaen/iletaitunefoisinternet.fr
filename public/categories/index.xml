@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Il était une fois internet</title>
-    <link>https://iletaitunefoisinternet.fr/categories/</link>
+    <link>https://www.iletaitunefoisinternet.fr/categories/</link>
     <description>Recent content in Categories on Il était une fois internet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 20 Nov 2014 18:25:22 +0530</lastBuildDate>
     
-	<atom:link href="https://iletaitunefoisinternet.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.iletaitunefoisinternet.fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>droit</title>
-      <link>https://iletaitunefoisinternet.fr/categories/droit/</link>
+      <link>https://www.iletaitunefoisinternet.fr/categories/droit/</link>
       <pubDate>Thu, 20 Nov 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/categories/droit/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/categories/droit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BGP</title>
-      <link>https://iletaitunefoisinternet.fr/categories/bgp/</link>
+      <link>https://www.iletaitunefoisinternet.fr/categories/bgp/</link>
       <pubDate>Fri, 23 May 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/categories/bgp/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/categories/bgp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FAI</title>
-      <link>https://iletaitunefoisinternet.fr/categories/fai/</link>
+      <link>https://www.iletaitunefoisinternet.fr/categories/fai/</link>
       <pubDate>Fri, 11 Apr 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/categories/fai/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/categories/fai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Email</title>
-      <link>https://iletaitunefoisinternet.fr/categories/email/</link>
+      <link>https://www.iletaitunefoisinternet.fr/categories/email/</link>
       <pubDate>Fri, 07 Feb 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/categories/email/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/categories/email/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enjeux</title>
-      <link>https://iletaitunefoisinternet.fr/categories/enjeux/</link>
+      <link>https://www.iletaitunefoisinternet.fr/categories/enjeux/</link>
       <pubDate>Wed, 22 Jan 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/categories/enjeux/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/categories/enjeux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>infra</title>
-      <link>https://iletaitunefoisinternet.fr/categories/infra/</link>
+      <link>https://www.iletaitunefoisinternet.fr/categories/infra/</link>
       <pubDate>Fri, 25 Oct 2013 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/categories/infra/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/categories/infra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DNS</title>
-      <link>https://iletaitunefoisinternet.fr/categories/dns/</link>
+      <link>https://www.iletaitunefoisinternet.fr/categories/dns/</link>
       <pubDate>Mon, 09 Sep 2013 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/categories/dns/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/categories/dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SSL</title>
-      <link>https://iletaitunefoisinternet.fr/categories/ssl/</link>
+      <link>https://www.iletaitunefoisinternet.fr/categories/ssl/</link>
       <pubDate>Mon, 09 Sep 2013 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/categories/ssl/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/categories/ssl/</guid>
       <description></description>
     </item>
     

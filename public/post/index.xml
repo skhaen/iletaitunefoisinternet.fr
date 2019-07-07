@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Il était une fois internet</title>
-    <link>https://iletaitunefoisinternet.fr/post/</link>
+    <link>https://www.iletaitunefoisinternet.fr/post/</link>
     <description>Recent content in Posts on Il était une fois internet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 20 Nov 2014 18:25:22 +0530</lastBuildDate>
     
-	<atom:link href="https://iletaitunefoisinternet.fr/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.iletaitunefoisinternet.fr/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Internet et le droit</title>
-      <link>https://iletaitunefoisinternet.fr/post/10-droit-iteanu/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/10-droit-iteanu/</link>
       <pubDate>Thu, 20 Nov 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/10-droit-iteanu/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/10-droit-iteanu/</guid>
       <description>&lt;p&gt;Olivier Iteanu&lt;/p&gt;
 
 &lt;p&gt;20 novembre 2014 @ Institut Mines-Télécom / Paris&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>BGP</title>
-      <link>https://iletaitunefoisinternet.fr/post/9-bgp-nataf/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/9-bgp-nataf/</link>
       <pubDate>Fri, 23 May 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/9-bgp-nataf/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/9-bgp-nataf/</guid>
       <description>&lt;p&gt;Sarah Nataf&lt;/p&gt;
 
 &lt;p&gt;23 mai 2014 @ Institut Mines-Télécom / Paris&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Qu&#39;est ce qu&#39;un FAI ?</title>
-      <link>https://iletaitunefoisinternet.fr/post/8-fai-spiquel/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/8-fai-spiquel/</link>
       <pubDate>Fri, 11 Apr 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/8-fai-spiquel/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/8-fai-spiquel/</guid>
       <description>&lt;p&gt;Bruno Spiquel&lt;/p&gt;
 
 &lt;p&gt;11 avril 2014 @ Institut Mines-Télécom / Paris&lt;/p&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>L&#39;email</title>
-      <link>https://iletaitunefoisinternet.fr/post/7-email-sonntag/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/7-email-sonntag/</link>
       <pubDate>Fri, 07 Feb 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/7-email-sonntag/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/7-email-sonntag/</guid>
       <description>&lt;p&gt;Benjamin Sonntag&lt;/p&gt;
 
 &lt;p&gt;7 février 2014 @ Institut Mines-Télécom / Paris&lt;/p&gt;</description>
@@ -57,10 +57,10 @@
     
     <item>
       <title>Création, partage et droit d&#39;auteur</title>
-      <link>https://iletaitunefoisinternet.fr/post/5-creation-maurel/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/5-creation-maurel/</link>
       <pubDate>Wed, 22 Jan 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/5-creation-maurel/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/5-creation-maurel/</guid>
       <description>&lt;p&gt;Lionel Maurel&lt;/p&gt;
 
 &lt;p&gt;22 janvier 2014 @ Numa / Paris&lt;/p&gt;</description>
@@ -68,10 +68,10 @@
     
     <item>
       <title>Création, partage et droit d&#39;auteur</title>
-      <link>https://iletaitunefoisinternet.fr/post/6-creation-aigrain/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/6-creation-aigrain/</link>
       <pubDate>Wed, 22 Jan 2014 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/6-creation-aigrain/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/6-creation-aigrain/</guid>
       <description>&lt;p&gt;Philippe Aigrain&lt;/p&gt;
 
 &lt;p&gt;22 janvier 2014 @ Numa / Paris&lt;/p&gt;</description>
@@ -79,10 +79,10 @@
     
     <item>
       <title>Internet et ses enjeux</title>
-      <link>https://iletaitunefoisinternet.fr/post/4-monde-bayart/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/4-monde-bayart/</link>
       <pubDate>Fri, 08 Nov 2013 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/4-monde-bayart/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/4-monde-bayart/</guid>
       <description>&lt;p&gt;Benjamin Bayart&lt;/p&gt;
 
 &lt;p&gt;8 novembre 2013 @ Institut Mines-Télécom / Paris&lt;/p&gt;</description>
@@ -90,10 +90,10 @@
     
     <item>
       <title>Les infrastructures physiques</title>
-      <link>https://iletaitunefoisinternet.fr/post/3-infra-maud/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/3-infra-maud/</link>
       <pubDate>Fri, 25 Oct 2013 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/3-infra-maud/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/3-infra-maud/</guid>
       <description>&lt;p&gt;Joël Mau&lt;/p&gt;
 
 &lt;p&gt;8 novembre 2013 @ Institut Mines-Télécom / Paris&lt;/p&gt;</description>
@@ -101,10 +101,10 @@
     
     <item>
       <title> DNS</title>
-      <link>https://iletaitunefoisinternet.fr/post/1-dns-bortzmeyer/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/1-dns-bortzmeyer/</link>
       <pubDate>Mon, 09 Sep 2013 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/1-dns-bortzmeyer/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/1-dns-bortzmeyer/</guid>
       <description>&lt;p&gt;Stéphane Bortzmeyer&lt;/p&gt;
 
 &lt;p&gt;9 septembre 2013 @ La Cantine / Paris&lt;/p&gt;</description>
@@ -112,10 +112,10 @@
     
     <item>
       <title>SSL / TLS</title>
-      <link>https://iletaitunefoisinternet.fr/post/2-ssl-sonntag/</link>
+      <link>https://www.iletaitunefoisinternet.fr/post/2-ssl-sonntag/</link>
       <pubDate>Mon, 09 Sep 2013 18:25:22 +0530</pubDate>
       
-      <guid>https://iletaitunefoisinternet.fr/post/2-ssl-sonntag/</guid>
+      <guid>https://www.iletaitunefoisinternet.fr/post/2-ssl-sonntag/</guid>
       <description>&lt;p&gt;Benjamin Sonntag&lt;/p&gt;
 
 &lt;p&gt;20 septembre 2013 @ La Cantine / Paris&lt;/p&gt;</description>
